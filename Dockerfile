@@ -1,4 +1,5 @@
 FROM alpine
+LABEL org.opencontainers.image.authors="Kenzo Okuda <kyokuheki@gmail.com>"
 
 RUN apk add --no-cache netcat-openbsd dumb-init dante-server
 COPY sockd.conf /etc/
