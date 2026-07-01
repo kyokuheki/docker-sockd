@@ -3,13 +3,13 @@ name: Docker Image CI
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - 'v*.*.*'
       - 'v*'
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   main:
